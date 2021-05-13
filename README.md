@@ -1,4 +1,6 @@
 # AirBnB Clone - The Console
+<img src="https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step5.png">
+
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
 #### Functionalities of this command interpreter:
@@ -62,8 +64,10 @@ Classes inherited from Base Model:
 * ` def reload(self)` -  deserializes the JSON file to __objects
 
 #### `/tests` directory contains all unit test cases for this project:
+
 [/test_models/test_base_model.py](/tests/test_models/test_base_model.py) - Contains the TestBaseModel and TestBaseModelDocs classes
 TestBaseModelDocs class:
+
 * `def setUpClass(cls)`- Set up for the doc tests
 * `def test_pep8_conformance_base_model(self)` - Test that models/base_model.py conforms to PEP8
 * `def test_pep8_conformance_test_base_model(self)` - Test that tests/test_models/test_base_model.py conforms to PEP8
@@ -158,6 +162,8 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Andres Lopez - [Github](https://github.com/andylopezr) / [Twitter](https://twitter.com/_andy_lopez_)  
+Juan Hernandez - [Github](https://github.com/Jong9106) / [Twitter](https://twitter.com/luigi_jong)
 
 Second part of Airbnb: Joann Vuong
 ## License
