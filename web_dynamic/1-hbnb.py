@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 """ Starts a Flash Web Application """
+
+from flask import Flask, render_template
 from models import storage
 from models.state import State
 from models.city import City
 from models.amenity import Amenity
 from models.place import Place
+from uuid import uuid4
 from os import environ
-from flask import Flask, render_template
+
 app = Flask(__name__)
 # app.jinja_env.trim_blocks = True
 # app.jinja_env.lstrip_blocks = True
@@ -38,7 +41,7 @@ def hbnb():
                            states=st_ct,
                            amenities=amenities,
                            places=places,
-                           cache_id=uuid.uuid4())
+                           cache_id=uuid4())
 
 
 if __name__ == "__main__":
