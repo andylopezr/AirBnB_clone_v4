@@ -1,3 +1,4 @@
+const $ = window.$;
 $(document).ready(function () {
   const amenities = {};
   $('input:checkbox').change(function () {
@@ -14,11 +15,10 @@ $(document).ready(function () {
       $('.amenities h4').html(tex);
     }
   });
-  $.getjson('http://0.0.0.0:5001/api/v1/status/', (data) => {
+  $.getJSON('http://127.0.0.1:5001/api/v1/status/', (data) => {
     if (data.status === 'OK') {
       $('DIV#api_status').addClass('available');
-    }
-    else {
+    } else {
       $('DIV#api_status').removeClass('available');
     }
   });
